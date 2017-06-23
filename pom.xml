@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+    <repositories>
+        <repository>
+            <id>doraframework-repository</id>
+            <url>https://raw.githubusercontent.com/ume-team/doraframework-repository/master</url>
+        </repository> 
+    </repositories>
+
+    <groupId>ume</groupId>
+	<artifactId>ume-ems-webapp</artifactId>
+    <version>1.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	
+    <parent>
+        <groupId>dora</groupId>
+        <artifactId>doraframework</artifactId>
+        <version>3.0.3.RELEASE</version>
+        <relativePath />
+    </parent>
+	
+    <properties>
+        <version.ume>1.0.1-SNAPSHOT</version.ume>
+        <version.dora>3.0.3.RELEASE</version.dora>
+    </properties>	
+
+	<dependencies>
+		<dependency>
+			<groupId>ume</groupId>
+			<artifactId>ume-ems</artifactId>
+			<version>${version.ume}</version>
+			<scope>compile</scope>
+			<exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-web</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+			</exclusions>
+		</dependency>
+
+	</dependencies>
+	<build>
+		<finalName>ume-ems-webapp</finalName>
+	</build>
+
+</project>

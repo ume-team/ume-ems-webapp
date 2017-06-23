@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "http://www.eclipse.org/jetty/configure_9_0.dtd"> 
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+	<!-- 
+    <New id="genericDataSource" class="org.eclipse.jetty.plus.jndi.Resource">
+        <Arg>jdbc/GenericDataSource</Arg>
+        <Arg>
+            <New class="org.apache.commons.dbcp.BasicDataSource">
+                <Set name="driverClassName">com.mysql.jdbc.Driver</Set>
+                <Set name="url">jdbc:mysql://localhost:3306/DORA_EM?characterEncoding=UTF-8</Set>
+                <Set name="username">carins</Set>
+                <Set name="password">zaq1@WSX</Set>
+                <Set name="maxActive">5</Set>
+            </New>
+        </Arg>
+    </New>
+
+    <New id="referDataSource" class="org.eclipse.jetty.plus.jndi.Resource">
+        <Arg>jdbc/GenericDataSource</Arg>
+        <Arg>
+            <New class="org.apache.commons.dbcp.BasicDataSource">
+                <Set name="driverClassName">com.mysql.jdbc.Driver</Set>
+                <Set name="url">jdbc:mysql://localhost:3306/DORA_SAMPLE</Set>
+                <Set name="username">carins</Set>
+                <Set name="password">zaq1@WSX</Set>
+                <Set name="maxActive">5</Set>
+            </New>
+        </Arg>
+    </New>
+     -->
+    
+</Configure>
+
