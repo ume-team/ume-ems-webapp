@@ -22,16 +22,11 @@
         <relativePath />
     </parent>
 	
-    <properties>
-        <version.ume>1.0.1-SNAPSHOT</version.ume>
-        <version.dora>3.0.3.RELEASE</version.dora>
-    </properties>	
-
 	<dependencies>
 		<dependency>
 			<groupId>ume.ems</groupId>
 			<artifactId>ume-ems</artifactId>
-			<version>${version.ume}</version>
+			<version>1.0.1-RELEASE</version>
 			<scope>compile</scope>
 			<exclusions>
                 <exclusion>
