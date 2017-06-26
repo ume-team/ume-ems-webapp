@@ -10,7 +10,7 @@
         </repository> 
     </repositories>
 
-    <groupId>ume</groupId>
+    <groupId>ume.ems</groupId>
 	<artifactId>ume-ems-webapp</artifactId>
     <version>1.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -29,7 +29,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>ume</groupId>
+			<groupId>ume.ems</groupId>
 			<artifactId>ume-ems</artifactId>
 			<version>${version.ume}</version>
 			<scope>compile</scope>
