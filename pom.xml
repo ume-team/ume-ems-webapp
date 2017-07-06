@@ -5,28 +5,28 @@
 	<modelVersion>4.0.0</modelVersion>
     <repositories>
         <repository>
-            <id>doraframework-repository</id>
-            <url>https://raw.githubusercontent.com/ume-team/doraframework-repository/master</url>
+            <id>ume-repository</id>
+            <url>https://raw.githubusercontent.com/ume-team/ume-repository/master</url>
         </repository> 
     </repositories>
 
-    <groupId>ume</groupId>
+    <groupId>org.umeframework.service</groupId>
 	<artifactId>ume-ems-webapp</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>0.0.1.SNAPSHOT</version>
 	<packaging>war</packaging>
 	
     <parent>
-        <groupId>dora</groupId>
-        <artifactId>doraframework</artifactId>
-        <version>3.0.3.RELEASE</version>
+        <groupId>org.umeframework</groupId>
+        <artifactId>umeframework</artifactId>
+        <version>1.0.1.RELEASE</version>
         <relativePath />
     </parent>
 	
 	<dependencies>
 		<dependency>
-			<groupId>ume</groupId>
-			<artifactId>ume-ems</artifactId>
-			<version>1.0.1-RELEASE</version>
+            <groupId>org.umeframework.service</groupId>
+            <artifactId>ume-ems</artifactId>
+            <version>0.0.1.SNAPSHOT</version>
 			<scope>compile</scope>
 			<exclusions>
                 <exclusion>

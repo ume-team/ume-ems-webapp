@@ -2,7 +2,22 @@
     <wb-module deploy-name="ume-ems-webapp">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-        <dependent-module archiveName="ume-ems-1.0.1-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ume-ems/ume-ems">
+        <dependent-module archiveName="ume-ems-0.0.1.SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ume-ems/ume-ems">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dora-core-1.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dora-core/dora-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dora-web-1.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dora-web/dora-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dora-orm-1.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dora-orm/dora-orm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dora-kvs-1.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dora-kvs/dora-kvs">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dora-config-1.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dora-config/dora-config">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="java-output-path" value="/ume-ems-webapp/target/classes"/>
