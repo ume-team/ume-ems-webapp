@@ -10,9 +10,7 @@
         </repository> 
     </repositories>
 
-    <groupId>org.umeframework.service</groupId>
 	<artifactId>ume-ems-webapp</artifactId>
-    <version>0.0.1.SNAPSHOT</version>
 	<packaging>war</packaging>
 	
     <parent>
@@ -24,9 +22,9 @@
 	
 	<dependencies>
 		<dependency>
-            <groupId>org.umeframework.service</groupId>
+            <groupId>org.umeframework</groupId>
             <artifactId>ume-ems</artifactId>
-            <version>0.0.1.SNAPSHOT</version>
+            <version>1.0.1.RELEASE</version>
 			<scope>compile</scope>
 			<exclusions>
                 <exclusion>

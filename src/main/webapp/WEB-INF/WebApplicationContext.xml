@@ -18,11 +18,11 @@
      http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
      ">
     <!-- 
-    <context:component-scan base-package="com.ume.ems,com.ume.config,com.dora.config" />
+    <context:component-scan base-package="com.ume.ems,com.ume.config,org.umeframework.dora.config" />
     <context:component-scan base-package="com.ume.ems,com.ume.config" />
     <import resource="classpath:DoraAutoConfiguration.xml"/>
      -->
-    <context:component-scan base-package="com.ume.ems,com.ume.config,com.dora.config" />
+    <context:component-scan base-package="com.ume.ems,com.ume.config,org.umeframework.dora.config" />
      
 
 </beans>
