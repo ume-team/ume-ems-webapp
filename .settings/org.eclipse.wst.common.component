@@ -5,6 +5,9 @@
         <dependent-module archiveName="ume-ems-1.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ume-ems/ume-ems">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="ume-uac-1.0.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ume-uac/ume-uac">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="dora-config-1.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dora-config/dora-config">
             <dependency-type>uses</dependency-type>
         </dependent-module>
