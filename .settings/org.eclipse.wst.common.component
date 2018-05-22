@@ -2,6 +2,8 @@
     <wb-module deploy-name="ume-ems-webapp">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <dependent-module archiveName="ume-ems-2.0.0.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ume-ems/ume-ems">
             <dependency-type>uses</dependency-type>
         </dependent-module>
